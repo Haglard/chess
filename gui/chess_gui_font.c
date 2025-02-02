@@ -87,7 +87,7 @@ int ChessGuiFont_DrawText(SDL_Renderer* renderer, const char* text,
         if (fontReg)  TTF_CloseFont(fontReg);
         if (fontBold) TTF_CloseFont(fontBold);
         return 0;
-    }
+    }  
 
     // Partiamo con font regular
     TTF_Font* currentFont = fontReg;
