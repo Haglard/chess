@@ -89,7 +89,7 @@ int ChessGuiFont_DrawText(SDL_Renderer* renderer, const char* text,
         return 0;
     }  
 
-    // Partiamo con font regular
+    // Partiamo con font regular è il font senza /b o /r
     TTF_Font* currentFont = fontReg;
 
     char chunk[1024];
